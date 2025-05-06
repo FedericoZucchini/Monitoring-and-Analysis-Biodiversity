@@ -140,6 +140,8 @@ par(mfrow=c(2,1))
 plot(mato1)
 plot(mato2)
 
+!: Per fare PULIZIA dopo tante rappresentazioni sull'interfaccia grafica impiego il comando/funzione "dev.off()" che mi pulisce l'interfaccia grafica cancellando l'ultima rappresentazione
+dev.off()
 
 #Ora che ho l'immagine posso farci un po' di cose simpatiche...
 #qualche esempio ora lo vediamo, ma prima, parliamo delle bande.
